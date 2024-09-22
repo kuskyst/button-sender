@@ -5,7 +5,7 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://www.google.com/*"],
+      "matches": ["https://www.google.com/*", "https://www.google.co.jp/*", "https://play.google.com/console/*"],
       "js": ["content.js"]
     }
   ]
